@@ -1,32 +1,27 @@
-# Website
-title: Vicropht
-subtitle: Karlsruhe University of Applied Sciences
-description: >- # this means to ignore newlines until "baseurl:"
-  My personal blog and portfolio for sharing my ideas and projects with the internet
-baseurl: ""
-url: "https://vicropht.com"
+port: 4001
 
-# About me
-owner: Victor Brincas Sinkunas
-email: vicropht@protonmail.com
-repository: Vicropht/vicropht.com
-author: Victor Brincas Sinkunas
+# Site settings
+title: Demo Blog
+subtitle: A launchpad project
+description: >-
+  This demo blog was built to accompany my own blog post about creating a fully
+  functional portfolio website and blogging platform based on GitHub Pages,
+  complete with a CI/CD solution using Travis CI, minified HTML via
+  compress_html and a custom domain (if so desired).
 
-# Social
-twitter:
-  handle: CristophVictor
-  url: https://twitter.com/CristophVictor
-github:
-  username: Vicropht
-  url: https://github.com/Vicropht
-linkedin:
-  username: vicropht
-  url: https://linkedin.com/in/vicropht
+# Personal Info
+owner: Lucas Vienna
+email: dev@lucasvienna.dev
+url: https://avyiel.github.io # the custom domain you configure ealier
+baseurl:  # what comes after the '.io'
+repository: Avyiel/lucasvienna.dev # only the path part of the repository URL
 
-  # Build settings
-  include: ['_pages']
-markdown: kramdown
-highlighter: rouge
+# Blogging Defaults
+author: Lucas Vienna
+
+# Build settings
+markdown: kramdown # this is the default, you can omit this line if desired
+highlighter: rouge # this is the default, you can omit this line if desired
 compress_html:
   blanklines: true
   comments: ["<!-- ", " -->"]
