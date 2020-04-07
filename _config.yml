@@ -1,23 +1,33 @@
 port: 4001
 
 # Site settings
-title: Demo Blog
-subtitle: A launchpad project
+title: Vicropht
+subtitle: Karlsruhe University of Applied Sciences | International IT Business
 description: >-
-  This demo blog was built to accompany my own blog post about creating a fully
-  functional portfolio website and blogging platform based on GitHub Pages,
-  complete with a CI/CD solution using Travis CI, minified HTML via
-  compress_html and a custom domain (if so desired).
+  My personal portfolio and blog to share my ideas and projects for the internet.
 
 # Personal Info
-owner: Lucas Vienna
-email: dev@lucasvienna.dev
-url: https://avyiel.github.io # the custom domain you configure ealier
+owner: Victor Brincas Sinkunas
+email: vicropht@protonmail.com
+url: https://vicropht.com # the custom domain you configure ealier
 baseurl:  # what comes after the '.io'
-repository: Avyiel/lucasvienna.dev # only the path part of the repository URL
+repository: Vicropht/vicropht.com # only the path part of the repository URL
+author: Victor Cristoph Brincas Sinkunas
 
-# Blogging Defaults
-author: Lucas Vienna
+# Social media
+twitter:
+  handle: CristophVictor
+  url: https://twitter.com/CristophVictor
+github:
+  username: Vicropht
+  url: https://github.com/Vicropht
+linkedin:
+  username: vicropht
+  url: https://linkedin.com/in/vicropht
+
+# Display settings
+show_github: false
+show_downloads: false
 
 # Build settings
 markdown: kramdown # this is the default, you can omit this line if desired
