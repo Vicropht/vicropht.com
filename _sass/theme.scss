@@ -3,15 +3,17 @@
 // code highliting
 @import "rouge-github";
 
-img {
-    height: auto;
-    width: 250px;
-    border-radius: 20px;
-  }
-
 * {
-    background-image: url(../images/background.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-attachment: fixed;
+  // background-image: url(../images/background.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  box-sizing: border-box;
+  transition: all 0.2s ease-out;
+}
+
+img {
+  height: auto;
+  width: 250px;
+  border-radius: 20px;
 }
