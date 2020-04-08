@@ -6,13 +6,12 @@
 img {
     height: auto;
     width: 250px;
-    border: 1px solid #C5C6C7;
-    border-radius: 6px;
-    box-shadow: -1px 1px #C5C6C7,
-                -2px 2px #C5C6C7,
-                -3px 3px #C5C6C7;
+    border-radius: 20px;
   }
 
-body {
+* {
     background-image: url(../images/background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
 }
