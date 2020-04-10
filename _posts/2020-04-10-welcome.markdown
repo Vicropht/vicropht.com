@@ -1,0 +1,27 @@
+---
+layout: post
+title:  "Welcome to my webiste!"
+subtitle:  What you (should) expect finding here
+date:   2020-04-10 16:00:00
+categories: development update
+---
+## My website is here!
+
+Welcome, welcome!
+
+I have been wanting to make this website for a while now but with all the exams and work on top I had no time for it.
+Things are not looking great right now, but with the whole Home Office and studying from home change, I was able to have more time to focus on side-projects like this one!
+
+_"So what are am I going to expect in this website"_?
+
+I have some ideas:
+
+- My projects
+- Ideas, code snippets
+- More blogs where I talk about stuff I have learned and want to share
+- More to come, with time.
+
+For now, I am just going to focus on making this website nice and easy to use, later I'll begin with the content.
+
+So, back to programming.
+Stay healthy and safe in these trying times everyone!
