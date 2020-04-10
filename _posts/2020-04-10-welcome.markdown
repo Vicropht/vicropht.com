@@ -5,7 +5,7 @@ subtitle:  What you (should) expect finding here
 date:   2020-04-10 16:00:00
 categories: development update
 ---
-## My website is here!
+## My website is here
 
 Welcome, welcome!
 

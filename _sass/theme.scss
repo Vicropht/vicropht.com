@@ -2,15 +2,28 @@
 @import "normalize";
 // code highliting
 @import "rouge-github";
+// variables
+@import "vars";
 
 * {
-  // background-image: url(../images/background.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-attachment: fixed;
   box-sizing: border-box;
-  transition: all 0.2s ease-out;
+  transition: all 0.2s ease-out
 }
+
+header {
+  background: rgb(0,236,255);
+  background: linear-gradient(119deg, rgba(0,236,255,1) 0%, rgba(160,8,193,1) 100%);
+}
+
+body {
+  padding: 0;
+  margin: 0;
+  font-size: $body-font-size;
+  line-height: 1.5;
+  color: #606c71;
+}
+
+
 
 img {
   height: auto;
