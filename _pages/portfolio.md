@@ -1,6 +1,8 @@
 ---
-layout: portfolio
+layout: page
 title: Portfolio
-subtitle: Projects I have work on
+subtitle: Projects I have made
 permalink: /portfolio
 ---
+
+## Here is my portfolio

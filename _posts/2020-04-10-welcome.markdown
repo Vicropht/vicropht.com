@@ -5,7 +5,9 @@ subtitle:  What you (should) expect finding here
 date:   2020-04-10 16:00:00
 categories: development update
 ---
-## My website is here
+_My website is now alive and ready for me to show the worlds my projects, thoughts and ideas!_
+
+## My website is now live for the internet
 
 Welcome, welcome!
 

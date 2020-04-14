@@ -3,8 +3,7 @@ port: 4001
 # Site settings
 title: Vicropht
 subtitle: Karlsruhe University of Applied Sciences | International IT Business
-description: >-
-  My personal portfolio and blog to share my ideas and projects for the internet.
+  
 
 # Personal Info
 owner: Victor Brincas Sinkunas
