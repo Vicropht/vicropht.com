@@ -33,12 +33,6 @@ a {
   }
 }
 
-img {
-  height: auto;
-  width: 250px;
-  border-radius: 20px;
-}
-
 /* _include style */
-
+@import "sassincludes/header"
 /* page-specific styles */

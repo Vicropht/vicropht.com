@@ -1,41 +1,31 @@
 .site-header {
-    .header {
-      color: $header-heading-color;
-      text-align: center;
-  
-      @include large {
-        padding: 5rem 6rem;
-      }
-  
-      @include medium {
-        padding: 3rem 4rem;
-      }
-  
-      @include small {
-        padding: 2rem 1rem;
-      }
+  @import "../mixins.scss";
+  .header {
+    color: #cacdd1;
+    text-align: center;
+
+    @include for-size(desktop-up) {
+      padding: 5rem 6rem;
     }
-    
+
+    @include for-size(tablet-portrait-up) {
+      padding: 3rem 4rem;
+    }
+
+    @include for-size(phone-only) {
+      padding: 2rem 1rem;
+    }
+  }
+
+  .header-page {
     background: #606c88;  /* fallback for old browsers */
     background: -webkit-linear-gradient(to right, #3f4c6b, #606c88);  /* Chrome 10-25, Safari 5.1-6 */
     background: linear-gradient(to right, #3f4c6b, #606c88); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-  
-    .header-page {
-      background-color: $header-bg-color;
-      background-image: linear-gradient(
-        120deg,
-        $header-bg-color-secondary,
-        $header-bg-color
-      );
-    }
-  
+  }
     .header-home {
-      background-color: $header-bg-color;
-      background-image: linear-gradient(
-        120deg,
-        $header-bg-color-secondary,
-        $header-bg-color
-      );
+      background: #606c88;  /* fallback for old browsers */
+      background: -webkit-linear-gradient(to right, #3f4c6b, #606c88);  /* Chrome 10-25, Safari 5.1-6 */
+      background: linear-gradient(to right, #3f4c6b, #606c88); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     }
   
     #profile {
@@ -58,15 +48,15 @@
       margin-top: 0;
       margin-bottom: 0.1rem;
   
-      @include large {
+      @include for-size(desktop-up) {
         font-size: 3.25rem;
       }
   
-      @include medium {
+      @include for-size(tablet-portrait-up) {
         font-size: 2.25rem;
       }
   
-      @include small {
+      @include for-size(phone-only) {
         font-size: 1.75rem;
       }
     }
@@ -76,15 +66,15 @@
       font-weight: normal;
       opacity: 0.7;
   
-      @include large {
+      @include for-size(desktop-up) {
         font-size: 1.25rem;
       }
   
-      @include medium {
+      @include for-size(tablet-portrait-up) {
         font-size: 1.15rem;
       }
   
-      @include small {
+      @include for-size(phone-only) {
         font-size: 1rem;
       }
     }
@@ -95,15 +85,15 @@
       opacity: 0.7;
       font-style: italic;
   
-      @include large {
+      @include for-size(desktop-up) {
         font-size: 1rem;
       }
   
-      @include medium {
+      @include for-size(tablet-portrait-up) {
         font-size: 0.95rem;
       }
   
-      @include small {
+      @include for-size(phone-only) {
         font-size: 0.75rem;
       }
     }
