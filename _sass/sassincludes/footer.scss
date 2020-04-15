@@ -1,15 +1,18 @@
 .site-footer {
   @import "../mixins.scss";
   padding: 2rem 0;
-  margin-top: 2rem;
-  border-top: solid 1px rgba(27, 31, 23, 0.685);
+  font-family: Cambria;
+  margin-top: auto;
+  border-top: solid 1px #eff0f1;
 
   @include for-size(desktop-up) {
     font-size: 1rem;
+    margin-top: 4rem;
   }
 
   @include for-size(tablet-portrait-up) {
     font-size: 1rem;
+    margin-top: 3rem;
   }
 
   @include for-size(phone-only) {
@@ -19,10 +22,7 @@
 
   .footer-icon {
     a {
-      text-decoration: none;
-    }
-    a:hover {
-      text-decoration: none;
+        text-decoration: none;
     }
 
     @include for-size(desktop-up) {
@@ -35,6 +35,35 @@
 
     @include for-size(phone-only) {
       padding: 0px 10px 10px 10px;
+    }
+  }
+
+  .footer-svg-icon {
+    color: rgba(53, 49, 49, 0.61);
+    fill: $body-text-color; // IE8
+    width: 24px;
+    height: 24px;
+
+    &:hover {
+      text-decoration: none;
+      fill: #3f4c6b;
+      transform: scale(1.25);
+      transition: color 0.5s, transform 0.2s ease-out;
+    }
+
+    @include for-size(desktop-up) {
+      width: 28px;
+      height: 28px;
+    }
+
+    @include for-size(tablet-portrait-up) {
+      width: 32px;
+      height: 32px;
+    }
+
+    @include for-size(phone-only) {
+      width: 36px;
+      height: 36px;
     }
   }
 }
