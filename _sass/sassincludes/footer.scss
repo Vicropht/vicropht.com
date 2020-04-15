@@ -1,0 +1,40 @@
+.site-footer {
+  @import "../mixins.scss";
+  padding: 2rem 0;
+  margin-top: 2rem;
+  border-top: solid 1px rgba(27, 31, 23, 0.685);
+
+  @include for-size(desktop-up) {
+    font-size: 1rem;
+  }
+
+  @include for-size(tablet-portrait-up) {
+    font-size: 1rem;
+  }
+
+  @include for-size(phone-only) {
+    font-size: 0.9rem;
+    margin-bottom: 0.5rem;
+  }
+
+  .footer-icon {
+    a {
+      text-decoration: none;
+    }
+    a:hover {
+      text-decoration: none;
+    }
+
+    @include for-size(desktop-up) {
+      padding: 0px 5px 0px 5px;
+    }
+
+    @include for-size(tablet-portrait-up) {
+      padding: 0px 10px 10px 10px;
+    }
+
+    @include for-size(phone-only) {
+      padding: 0px 10px 10px 10px;
+    }
+  }
+}

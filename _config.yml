@@ -2,7 +2,7 @@ port: 4001
 
 # Site settings
 title: Vicropht
-subtitle: Karlsruhe University of Applied Sciences | International IT Business
+subtitle: Karlsruhe University of Applied Sciences | International IT Business | Brazil / Germany
   
 
 # Personal Info
@@ -23,6 +23,8 @@ github:
 linkedin:
   username: vicropht
   url: https://linkedin.com/in/vicropht
+linktree:
+  url: https://linktr.ee/vicropht
 
 # Display settings
 show_github: false

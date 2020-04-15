@@ -1,7 +1,7 @@
 .site-header {
   @import "../mixins.scss";
   .header {
-    color: #cacdd1;
+    color: white;
     text-align: center;
 
     @include for-size(desktop-up) {
@@ -31,9 +31,13 @@
     #profile {
       width: 90%;
       max-width: 250px;
-      border-radius: 50%;
-      border: 8px solid white;
+      border-radius: 10%;
+      border: 2px solid white;
       box-shadow: 0 0 1.5em black;
+    }
+
+    .justify {
+      text-align: center;
     }
   
     .action {
