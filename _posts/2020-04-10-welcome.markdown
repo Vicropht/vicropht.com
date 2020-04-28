@@ -1,7 +1,7 @@
 ---
 layout: post
-title:  "Welcome to my webiste!"
-subtitle:  What you (should) expect finding here
+title:  "Welcome to my website!"
+subtitle:  What you'll expect finding here
 date:   2020-04-10 16:00:00
 categories: development update
 ---
@@ -25,5 +25,6 @@ I have some ideas:
 
 For now, I am just going to focus on making this website nice and easy to use, later I'll begin with the content.
 
-So, back to programming.
+So, back to programming. Please mind that I am working and studying while doing this so updates are going to be scarce sometimes!
+
 Stay healthy and safe in these trying times everyone!
