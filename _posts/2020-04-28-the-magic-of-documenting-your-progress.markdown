@@ -2,7 +2,7 @@
 layout: post
 title:  "The Magic of documenting your progress"
 subtitle:  How baby steps take you to somewhere you'd never dream of reaching
-date:   2020-04-10 18:02:00
+date:   2020-04-28 18:02:00
 categories: development tips achievements
 ---
 ## This helped me. A LOT
