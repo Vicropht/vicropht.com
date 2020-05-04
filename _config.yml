@@ -31,6 +31,8 @@ show_github: false
 show_downloads: false
 
 # Build settings
+plugins:
+  - jemoji #Emojis!
 include: ['_pages']
 markdown: kramdown # this is the default, you can omit this line if desired
 highlighter: rouge # this is the default, you can omit this line if desired
